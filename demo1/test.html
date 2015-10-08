@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	
+</head>
+<body>
+	<div id="a"></div>
+	<div id="b"></div>
+
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript">
+	$(function (){
+
+		var log = function (){
+			window.console.log(arguments);
+		};
+		var a = $('#a');
+		var b = $('#a');
+		// $.data(a, 'a', 1111);
+		// $.data(b, 'a', 2222);
+
+		// alert($.data(a, 'a'));
+		// alert($.data(b, 'a'));
+		
+		a.data('a', 1111);
+		b.data('a', 1111);
+
+		log(a.data('a'));
+		log(b.data('a'));
+	});
+	</script>
+</body>
+</html>
