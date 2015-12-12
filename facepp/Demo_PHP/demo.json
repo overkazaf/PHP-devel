@@ -1,0 +1,29 @@
+{
+    u 'url': None, u 'img_id': u 'aba8b15282e3a6e565cd05162789adaa', u 'img_width': 1080, u 'session_id': u 'bd7b25f19ada4250b5e254e6575d4a72', u 'face': [{
+        u 'attribute': {
+            u 'gender': {
+                u 'confidence': 99.9999, u 'value': u 'Male'
+            }, u 'age': {
+                u 'range': 6, u 'value': 32
+            }, u 'race': {
+                u 'confidence': 67.0125, u 'value': u 'White'
+            }, u 'smiling': {
+                u 'value': 7.83549
+            }
+        }, u 'face_id': u '0eb2d88f663e810c5acd63503a031ff5', u 'tag': u '', u 'position': {
+            u 'eye_left': {
+                u 'y': 45.82625, u 'x': 47.911
+            }, u 'center': {
+                u 'y': 54.125, u 'x': 54.75
+            }, u 'width': 30.833333, u 'mouth_left': {
+                u 'y': 67.31025, u 'x': 48.185167
+            }, u 'height': 46.25, u 'mouth_right': {
+                u 'y': 66.609, u 'x': 60.646167
+            }, u 'nose': {
+                u 'y': 57.4765, u 'x': 54.960667
+            }, u 'eye_right': {
+                u 'y': 45.1825, u 'x': 62.4755
+            }
+        }
+    }], u 'img_height': 720
+}

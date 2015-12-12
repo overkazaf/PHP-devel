@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Face++ JavaScript SDK</title>
+  </head>
+  <body>
+    <pre id="response">Loading...</pre>
+    <script type="text/javascript" src="facepp-sdk.min.js"></script>
+    <script type="text/javascript">
+      (function() {
+        var api = new FacePP('72ad3d0268ac51568b896b70aef934bd', 'kqHcjz0TeXRcPuOWFPOO7lRIsVIvfMtc');
+        var globalUrl = 'http://localhost:8080/images/me1.jpg';
+
+        api.request('detection/detect', {
+          url: globalUrl
+        }, function(err, result) {
+          if (err) {
+            // TODO handle error
+            return;
+          }
+          // TODO use result
+          document.getElementById('response').innerHTML = JSON.stringify(result, null, 2);
+        });
+      })();
+    </script>
+  </body>
+</html>
